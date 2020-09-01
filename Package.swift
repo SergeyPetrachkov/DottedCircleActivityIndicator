@@ -21,8 +21,5 @@ let package = Package(
         .target(
             name: "DottedCircleActivityIndicator",
             dependencies: []),
-        .testTarget(
-            name: "DottedCircleActivityIndicatorTests",
-            dependencies: ["DottedCircleActivityIndicator"]),
     ]
 )
